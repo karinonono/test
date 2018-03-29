@@ -1,0 +1,178 @@
+package testproject01;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World! の出力
+		System.out.println("2018/03/28\r\n本日からjavaの学習に入ります。\r\n\r\n");
+
+		String name="狩野";
+		System.out.println(name);
+		String str1="鈴木";
+		System.out.println(str1);
+		String str2="佐藤";
+		System.out.println(str2);
+		String tel="090-1234-5678";
+		System.out.println(tel);
+		char char1='Z';
+		System.out.println(char1);
+		int num1=123;
+		System.out.println(num1);
+		boolean boo=true;
+		System.out.println(boo);
+		int a=231+924;
+		System.out.println(a);
+		String b="3+3";
+		System.out.println(b);
+		char mozi='は';
+		System.out.println(mozi);
+		String yamada="山田";
+		System.out.println(yamada+"だよ");
+		System.out.println("java5");
+		int ab=-3+7;
+		System.out.println(ab);
+		int ac=300/10;
+		System.out.println(ac);
+		int ad=0/100;
+		System.out.println(ad);
+		int ae=8/3;
+		System.out.println(ae);
+        float af=(float)10/3;
+        System.out.println(af);
+        double ag=(double)7347547/3;
+        System.out.println(ag);
+        int ah=7%3;
+        System.out.println(ah);
+        System.out.println(98+2);
+        System.out.println(5%2);
+        //前置加算子･後置加算子
+        int ai=48;
+        System.out.println(ai++);
+        System.out.println(ai++);
+        System.out.println(ai++);
+        System.out.println(++ai);
+        System.out.println(ai++);
+        String aj="山田";
+        //if文
+        if(aj.equals("山田")){
+        	System.out.println(aj+"さん");}
+        int ak=5;
+        if(ak<10&&a>3){
+        	System.out.println("A");}
+        int al=0;
+        if(al>=5||al<=0){
+
+        System.out.println("b");}
+        int am=7;
+        if(am>=8){
+        System.out.println("A");}
+        else if(am<=10){
+
+        System.out.println("B");}
+        int an=11;
+        if(an>8){
+        	System.out.println("A");}
+        else if(an<10){
+        	System.out.println("B");}
+        int ao=3;
+        if(ao>5){
+        	System.out.println("A");}
+        else{
+        	System.out.println("Z");}
+        int ap=5;
+        if(ap<8){
+        	System.out.println("A");}
+        else if(ao==8){
+        	System.out.println("B");}
+        else{
+        	System.out.println("C");}
+        int aq=20;
+        if(aq>=20){
+        	System.out.println("成人");}
+        else{
+        	System.out.println("未成年");}
+        int age1=87;
+        if(age1<20){
+        	System.out.println("未成年");}
+        else if(age1>80){
+        	System.out.println("高齢者");}
+        else{
+        	System.out.println("成人");}
+        int age2=50;
+        if(age2<20){
+        	System.out.println("未成年");}
+        else if(age2>=20&&age2<=80){
+            System.out.println("成人");}
+        else{
+            System.out.println("高齢者");}
+        int ar=475757573;
+        if(ar%2==0){
+        	System.out.println("偶数");}
+        else{
+        	System.out.println("奇数");}
+        int as=11;
+        if(as>10){
+        	if(as<30){
+        		System.out.println("A");}
+        }
+        int at=7;
+        if(at>3){
+        	if(at<10){
+        	    System.out.println("A");}
+        }
+        int au=29;
+        if(au>10){
+        	if(au<30){
+        		System.out.println("A");}
+        }
+        int av=5;
+        if(av>0){
+        	if(av==2){
+        		System.out.println("A");}
+        	else if(av==3){
+        		System.out.println("B");}
+        else{
+        	System.out.println("C");}
+        }
+        int aw=110;
+        if(aw<=100){
+        	if(aw<20){
+
+        	System.out.println("未成年");}
+        	else if(aw==77){
+
+        	System.out.println("喜寿");}
+        	else if(aw==88){
+
+        	System.out.println("米寿");}
+        	else{
+
+        	System.out.println("成人");}
+        }
+        //switch文
+        int ax=0;
+        switch(ax){
+        case 0:
+        	System.out.println("axは0に等しい");
+        	break;
+        case 1:
+        	System.out.println("axは1に等しい");
+        	break;
+        }
+        int ay=3;
+        switch(ay){
+        case 0:
+        	System.out.println("aは0に等しい");
+            break;
+        case 1:
+        	System.out.println("aは1に等しい");
+        	break;
+        default:
+        	System.out.println("aは0でも1でもない");
+        }
+
+
+
+       }
+
+}
