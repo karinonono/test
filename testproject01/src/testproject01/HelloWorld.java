@@ -228,8 +228,76 @@ public class HelloWorld {
         country2[2][1]="ロシア";
         System.out.println(country[0][0]);
         //for文(ループ処理)基礎
+        for(int i=1;i<10;i++){
+        	System.out.println(i);}
+        //for文(ループ処理)応用
+        for(int bd=1;bd<=10;bd++){
+        	if(bd%2==0){
+        		System.out.println(bd+"\n");}
+        }
+        for(int be=0;be<3;be++){
+        	for(int bf=1;bf<4;bf++){
+        		System.out.println(bf);}
+        	System.out.println("\n");
+        }
+        //条件演算子
+        int b1=-2;
+        String b2=b1>=0 ? "プラス":"マイナス";
+        System.out.println(b2);
+        //条件演算子
+        int b3=2;
+        String b4=b3%2==0?"偶数":"奇数";
+        System.out.println(b4);
+
+        for(int b5=0;b5<=5;b5++){
+        	String b6=b5%2==0?"☆":"★";
+        			System.out.println(b6);
+        }
+        for(int b5=0;b5<=5;b5++){
+        	String b6=b5%2==0?"☆":"★";
+                    System.out.println(b6);
+        }
+        //while文　基礎
+        int b7=5;
+        while(b7>0){
+        	System.out.println(b7);
+        	b7--;
+        }
+        int b8=1;
+        while(b8<=10){
+        	System.out.println(b8);
+        	b8+=2;
+        }
+        int b9=2;
+        while(b9<=10){
+        	System.out.println(b9);
+        	b9+=3;
+        }
+        //while文　応用
+        int c1=1;
+        do{
+        	System.out.println(c1);
+        	c1--;
+        }while(c1>1);
+        int c2=1;
+        do{
+        	System.out.println(c2);
+        	c2+=2;
+        }while(c2<10);
+
+        int c3=1;
+        do{
+        	System.out.println(c3);
+        	c3+=2;
+        }while(c3<10);
+
+        float c4=(float)2;
+        do{
+        	System.out.println(c4);
+        	c4+=2.6;
+        }while(c4<10);
 
 
-       }
+	}
 
 }
